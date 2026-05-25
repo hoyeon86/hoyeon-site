@@ -4,267 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Hoyeon Lee – Teaching</title>
-
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-
-<style>
-
-:root{
-  --bg:#f5f3f0;
-  --sidebar:#121212;
-  --text:#262626;
-  --muted:#7c7c7c;
-  --line:#d9d3cc;
-  --accent:#a86f3d;
-}
-
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-}
-
-body{
-  background:var(--bg);
-  color:var(--text);
-  font-family:'DM Sans', sans-serif;
-  line-height:1.9;
-}
-
-.site-wrapper{
-  display:flex;
-  min-height:100vh;
-}
-
-.sidebar{
-  width:320px;
-  background:var(--sidebar);
-  color:white;
-  padding:56px 40px;
-  position:fixed;
-  height:100vh;
-}
-
-.sidebar-name{
-  font-family:'Cormorant Garamond', serif;
-  font-size:54px;
-  line-height:0.95;
-  margin-bottom:60px;
-}
-
-.sidebar-name em{
-  display:block;
-  margin-top:20px;
-  font-size:24px;
-  color:#d9a26a;
-  font-style:italic;
-  letter-spacing:1px;
-}
-
-.sidebar nav{
-  display:flex;
-  flex-direction:column;
-  gap:22px;
-  margin-bottom:60px;
-}
-
-.sidebar nav a{
-  color:#d6d6d6;
-  text-decoration:none;
-  letter-spacing:2px;
-  font-size:14px;
-  transition:0.2s;
-}
-
-.sidebar nav a:hover,
-.sidebar nav a.active{
-  color:white;
-}
-
-.sidebar-contact{
-  font-size:14px;
-  color:#b5b5b5;
-  line-height:1.8;
-}
-
-.sidebar-contact a{
-  color:white;
-  text-decoration:none;
-}
-
-main{
-  margin-left:320px;
-  width:calc(100% - 320px);
-  padding:80px 90px 120px;
-}
-
-section{
-  margin-bottom:90px;
-}
-
-.page-title{
-  font-family:'Cormorant Garamond', serif;
-  font-size:88px;
-  line-height:0.95;
-  margin-bottom:28px;
-}
-
-.page-subtitle{
-  text-transform:uppercase;
-  letter-spacing:3px;
-  color:#8c8c8c;
-  font-size:15px;
-  margin-bottom:45px;
-}
-
-.lead{
-  font-size:22px;
-  line-height:2;
-  max-width:1000px;
-  margin-bottom:50px;
-}
-
-.teaching-photo img{
-  width:100%;
-  max-width:950px;
-  border-radius:6px;
-  display:block;
-}
-
-.section-label{
-  font-size:13px;
-  letter-spacing:3px;
-  text-transform:uppercase;
-  color:var(--accent);
-  margin-bottom:30px;
-  padding-bottom:14px;
-  border-bottom:1px solid var(--line);
-  font-weight:500;
-}
-
-.diss-card,
-.card{
-  background:white;
-  border:1px solid #e8e2da;
-  padding:42px;
-  margin-bottom:40px;
-}
-
-.diss-card h3,
-.card h3{
-  font-family:'Cormorant Garamond', serif;
-  font-size:46px;
-  margin-bottom:24px;
-  font-weight:400;
-}
-
-.list-item{
-  display:flex;
-  justify-content:space-between;
-  gap:40px;
-  padding:32px 0;
-  border-bottom:1px solid var(--line);
-}
-
-.list-title{
-  font-size:31px;
-  font-family:'Cormorant Garamond', serif;
-  margin-bottom:8px;
-}
-
-.list-org{
-  color:var(--muted);
-  margin-bottom:10px;
-}
-
-.list-desc{
-  max-width:850px;
-}
-
-.list-year{
-  color:#9a9a9a;
-  white-space:nowrap;
-}
-
-.quote-grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-  gap:26px;
-  margin-top:40px;
-}
-
-.student-quote{
-  background:white;
-  padding:34px;
-  border:1px solid #e5dfd7;
-}
-
-.student-quote blockquote{
-  font-size:18px;
-  line-height:1.9;
-  color:#3d3d3d;
-}
-
-.source{
-  margin-top:20px;
-  font-size:13px;
-  color:#8a8a8a;
-  letter-spacing:1px;
-}
-
-.compact-quotes{
-  margin-top:40px;
-}
-
-.compact-quotes p{
-  margin-bottom:18px;
-  padding-left:18px;
-  border-left:2px solid #d4c7bb;
-  color:#555;
-}
-
-.caption{
-  font-size:13px;
-  color:#888;
-  font-style:italic;
-  margin-top:14px;
-  line-height:1.8;
-  max-width:850px;
-}
-
-@media(max-width:1100px){
-
-  .sidebar{
-    position:relative;
-    width:100%;
-    height:auto;
-  }
-
-  main{
-    margin-left:0;
-    width:100%;
-    padding:60px 30px;
-  }
-
-  .site-wrapper{
-    flex-direction:column;
-  }
-
-  .page-title{
-    font-size:64px;
-  }
-
-}
-
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
 <div class="site-wrapper">
 
   <aside class="sidebar">
-
     <div class="sidebar-name">
       Hoyeon Lee
       <em>Ph.D. Candidate</em>
@@ -281,285 +28,163 @@ section{
     <div class="sidebar-contact">
       The New School for Social Research<br>
       New York, United States<br><br>
-
-      <a href="mailto:hoyeon@newschool.edu">
-        hoyeon@newschool.edu
-      </a>
+      <a href="mailto:hoyeon@newschool.edu">hoyeon@newschool.edu</a>
     </div>
-
   </aside>
 
   <main>
 
     <section>
-
       <div class="page-title">Teaching</div>
-
-      <div class="page-subtitle">
-        Quantitative Reasoning · Critical Inquiry · Participatory Learning
-      </div>
+      <div class="page-subtitle">Quantitative Reasoning · Critical Inquiry · Participatory Learning</div>
 
       <p class="lead">
         My teaching centers on quantitative reasoning as a practice of interpretation, participation, and critical inquiry. Rather than treating mathematics and statistics as purely technical skills, I help students use numbers, graphs, and data to understand social life, inequality, public information, and human experience.
       </p>
 
       <div class="teaching-photo">
-        <img src="Hoyeon Teaching.png" alt="Hoyeon Lee teaching">
+        <img src="Hoyeon Teaching.png" alt="Students in Hoyeon Lee’s Quantitative Reasoning class">
       </div>
-
     </section>
 
     <section>
-
-      <div class="section-label">
-        Teaching Experience and Evaluations
-      </div>
+      <div class="section-label">Teaching Experience and Evaluations</div>
 
       <div class="diss-card">
-
         <h3>Quantitative Reasoning I & II</h3>
-
         <p>
           I have taught Quantitative Reasoning I and II at The New School for approximately ten semesters, primarily as instructor of record. In Fall 2025 and Spring 2026, my Quantitative Reasoning I courses received an overall learning experience rating of 4.8/5.
         </p>
-
-        <br>
-
         <p>
           Across the past four years, my course and instructor evaluations have generally remained around 4.5/5.
         </p>
-
       </div>
 
       <div class="list-item">
-
         <div>
-
-          <div class="list-title">
-            Teaching Fellow (Instructor of Record) — Quantitative Reasoning I & II
-          </div>
-
-          <div class="list-org">
-            The New School
-          </div>
-
+          <div class="list-title">Teaching Fellow (Instructor of Record) — Quantitative Reasoning I & II</div>
+          <div class="list-org">The New School</div>
           <div class="list-desc">
             Designed curriculum integrating mathematics, statistics, data visualization, social issues, and applied quantitative reasoning for interdisciplinary undergraduate students.
           </div>
-
         </div>
-
-        <div class="list-year">
-          2022–2026
-        </div>
-
+        <div class="list-year">2022–2026</div>
       </div>
 
       <div class="list-item">
-
         <div>
-
-          <div class="list-title">
-            Graduate Teaching Assistant — Economics in International Affairs
-          </div>
-
-          <div class="list-org">
-            The New School
-          </div>
-
-          <div class="list-desc">
-            Assisted lecture and seminar delivery for graduate students.
-          </div>
-
+          <div class="list-title">Graduate Teaching Assistant — Economics in International Affairs</div>
+          <div class="list-org">The New School</div>
+          <div class="list-desc">Assisted lecture and seminar delivery for graduate students.</div>
         </div>
-
-        <div class="list-year">
-          2021–2023
-        </div>
-
+        <div class="list-year">2021–2023</div>
       </div>
-
     </section>
 
     <section>
-
-      <div class="section-label">
-        Teaching Philosophy
-      </div>
+      <div class="section-label">Teaching Philosophy</div>
 
       <div class="card">
-
-        <h3>
-          Interpretation, Participation, and Critical Inquiry
-        </h3>
-
+        <h3>Interpretation, Participation, and Critical Inquiry</h3>
         <p>
           Throughout these years, I have tried to approach teaching not simply as the transmission of technical knowledge, but as a collaborative process of interpretation, participation, and critical inquiry.
         </p>
-
-        <br>
-
         <p>
           I work to create a participatory classroom environment grounded in psychological safety, where students feel comfortable asking questions, making mistakes, and engaging in open discussion without fear of embarrassment or judgment.
         </p>
-
-        <br>
-
         <p>
           I connect quantitative reasoning and statistics to real-world social issues—including labor, inequality, climate change, minimum wage, and public information—so that students see numbers not as abstract formulas but as tools for understanding human experiences and social structures.
         </p>
-
-        <br>
-
         <p>
           More broadly, my teaching philosophy is shaped by the belief that education is not only about learning how to calculate, but also about learning how to interpret the world with curiosity, empathy, and intellectual honesty.
         </p>
-
       </div>
-
     </section>
 
     <section>
-
-      <div class="section-label">
-        Classroom Practice
-      </div>
+      <div class="section-label">Classroom Practice</div>
 
       <div class="teaching-photo">
-        <img src="Board.jpg" alt="Collaborative classroom whiteboard discussion">
+        <img src="Board.jpg" alt="Collaborative whiteboard discussion in Quantitative Reasoning">
       </div>
 
       <p class="caption">
-        Collaborative classroom discussion integrating inflation, labor markets, inequality, supply-demand analysis, and quantitative interpretation through participatory whiteboard-based inquiry.
+        Collaborative whiteboard discussion connecting inflation, labor markets, pricing, inequality, and quantitative interpretation in Quantitative Reasoning.
       </p>
-
     </section>
 
     <section>
-
-      <div class="section-label">
-        Student Research and Fieldwork
-      </div>
+      <div class="section-label">Student Research and Fieldwork</div>
 
       <div class="card">
-
-        <h3>
-          Field-Based Quantitative Inquiry
-        </h3>
-
+        <h3>Field-Based Quantitative Inquiry</h3>
         <p>
           In my Quantitative Reasoning courses, students conduct field-based research projects, collect and clean original datasets, interpret visualizations, and connect quantitative reasoning to broader social and economic questions.
         </p>
-
-        <br>
-
         <p>
-          One project asked students to conduct observational fieldwork across Manhattan retail stores, examining pricing, material composition, production geography, labor conditions, and consumer markets. Students then analyzed the combined dataset through statistical visualization, literature review, and reflective analytical writing.
+          One project asked students to collect observational data across Manhattan retail stores, examining pricing, material composition, production geography, store environments, and consumer markets. Students then analyzed the combined class dataset through histograms, boxplots, scatterplots, literature review, and reflective analytical writing.
         </p>
-
       </div>
 
       <div class="quote-grid">
-
         <div class="student-quote">
           <blockquote>
-            “The mean would be totally useless here. When a distribution is this skewed, the mean gets pulled by the tail and stops representing anything real.”
+            “The mean would be totally useless here. We talked about this in class—when a distribution is this skewed, the mean gets pulled by the tail and stops representing anything real.”
           </blockquote>
-
-          <div class="source">
-            Final Exam · Quantitative Reasoning I
-          </div>
+          <div class="source">Final Exam · Quantitative Reasoning I</div>
         </div>
 
         <div class="student-quote">
           <blockquote>
             “Even the act of collecting data was stratified by store type.”
           </blockquote>
-
-          <div class="source">
-            Final Exam · Quantitative Reasoning I
-          </div>
+          <div class="source">Final Exam · Quantitative Reasoning I</div>
         </div>
 
         <div class="student-quote">
           <blockquote>
-            “Price alone really cannot identify what kind of store something came from.”
+            “Price alone really can’t identify what kind of store something came from. A $200 item at T.J. Maxx and a $200 item at Saks are not the same thing.”
           </blockquote>
-
-          <div class="source">
-            Final Exam · Quantitative Reasoning I
-          </div>
+          <div class="source">Final Exam · Quantitative Reasoning I</div>
         </div>
-
       </div>
-
     </section>
 
     <section>
-
-      <div class="section-label">
-        Student Reflections
-      </div>
+      <div class="section-label">Student Reflections</div>
 
       <div class="quote-grid">
-
         <div class="student-quote">
           <blockquote>
             “Professor Lee is the best math professor I have ever had. He is extremely clear in his explanations and always takes the time to show not just how to do something, but why it works.”
           </blockquote>
-
-          <div class="source">
-            Quantitative Reasoning I · Fall 2025
-          </div>
+          <div class="source">Quantitative Reasoning I · Fall 2025</div>
         </div>
 
         <div class="student-quote">
           <blockquote>
             “This course changed the way I think about math and data. I came in mainly wanting to fulfill a requirement, and I’m leaving with a real interest in quantitative reasoning and how it can be used to understand the world more critically.”
           </blockquote>
-
-          <div class="source">
-            Quantitative Reasoning I · Fall 2025
-          </div>
+          <div class="source">Quantitative Reasoning I · Fall 2025</div>
         </div>
 
         <div class="student-quote">
           <blockquote>
-            “I wasn’t just learning math; I was learning in an environment where people genuinely cared about one another as human beings.”
+            “For me, it summed up what made this course so meaningful: I wasn’t just learning math; I was learning in an environment where people genuinely cared about one another as human beings.”
           </blockquote>
-
-          <div class="source">
-            Quantitative Reasoning I · Fall 2025
-          </div>
+          <div class="source">Quantitative Reasoning I · Fall 2025</div>
         </div>
-
       </div>
 
       <div class="compact-quotes">
-
-        <p>
-          “The way we progressed from basic concepts to Excel, data visualization, and then full projects made the mathematics feel practical rather than abstract.”
-        </p>
-
-        <p>
-          “Working with topics such as plastic waste, sweatshops, minimum wage, inflation, and data misinterpretation helped me see how quantitative reasoning shows up in the news and in everyday decisions.”
-        </p>
-
-        <p>
-          “His enthusiasm for the class made the environment a space where I felt I could ask questions and truly understand lofty concepts.”
-        </p>
-
-        <p>
-          “Because of Hoyeon, I can understand the importance of statistical data and analysis and how to use it in my profession.”
-        </p>
-
+        <p>“The way we progressed from basic concepts to Excel, data visualization, and then full projects made the mathematics feel practical rather than abstract.”</p>
+        <p>“Working with topics such as plastic waste, sweatshops, minimum wage, inflation, and data misinterpretation helped me see how quantitative reasoning shows up in the news and in everyday decisions.”</p>
+        <p>“His enthusiasm for the class made the environment a space where I felt I could ask questions and truly understand lofty concepts.”</p>
+        <p>“Because of Hoyeon, I can understand the importance of statistical data and analysis and how to use it in my profession.”</p>
       </div>
-
     </section>
 
   </main>
-
 </div>
-
 </body>
 </html>
