@@ -482,3 +482,9 @@ section, .page-section {
   .pub-item, .list-item { grid-template-columns: 1fr; }
   .list-year { text-align: left; }
 }
+
+
+.sidebar-name-link{
+    text-decoration:none;
+    color:inherit;
+}
