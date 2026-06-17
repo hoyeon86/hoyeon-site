@@ -490,3 +490,43 @@ section, .page-section {
     color:inherit;
     text-decoration:none;
 }
+
+
+.field-gallery-custom {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.gallery-large img {
+    width: 100%;
+    display: block;
+    border-radius: 6px;
+}
+
+.gallery-row {
+    display: flex;
+    gap: 12px;
+}
+
+.gallery-row img {
+    width: calc(50% - 6px);
+    display: block;
+    border-radius: 6px;
+}
+
+@media (max-width: 700px) {
+    .gallery-row {
+        flex-direction: column;
+    }
+
+    .gallery-row img {
+        width: 100%;
+    }
+}
+
+
+
+
+
