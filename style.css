@@ -526,7 +526,36 @@ section, .page-section {
     }
 }
 
+.field-subtitle {
+    margin-top: 28px;
+    margin-bottom: 10px;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #222;
+}
 
+.archive-links {
+    margin-top: 14px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.archive-links strong {
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+}
+
+.archive-links a {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #555;
+}
+
+.archive-links a:hover {
+    text-decoration: underline;
+}
 
 
 
