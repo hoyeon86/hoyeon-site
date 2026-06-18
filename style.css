@@ -596,3 +596,28 @@ section, .page-section {
 .field-table td {
     color: #444;
 }
+.document-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:12px;
+    margin:30px 0;
+}
+
+.document-grid img{
+    width:100%;
+    display:block;
+    border:1px solid #ddd;
+}
+
+.document-grid img:last-child{
+    grid-column:1 / span 2;
+}
+
+.field-caption{
+    margin-top:12px;
+    margin-bottom:30px;
+    font-size:14px;
+    color:#777;
+    line-height:1.6;
+    font-style:italic;
+}
