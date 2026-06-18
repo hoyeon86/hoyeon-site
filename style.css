@@ -569,3 +569,30 @@ section, .page-section {
 .field-text {
     line-height: 1.7;
 }
+
+.field-table {
+    margin-top: 22px;
+    overflow-x: auto;
+}
+
+.field-table table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.88rem;
+}
+
+.field-table th,
+.field-table td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px 10px;
+    text-align: left;
+}
+
+.field-table th {
+    font-weight: 600;
+    color: #222;
+}
+
+.field-table td {
+    color: #444;
+}
